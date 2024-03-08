@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-24 02:26:49 "/>
+        <attribute name="created" value="VXNlcjtMQVBUT1AtMVNKMEtIM0Y7MjAyNC0wMS0yMzsiMDI6NTQ6NTYgIjsyNjM3"/>
+        <attribute name="edited" value="VXNlcjtMQVBUT1AtMVNKMEtIM0Y7MjAyNC0wMS0yNDsiMDI6MjY6NDkgIjszOzI3NDk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Ismingizni kiriting&quot;" newline="True"/>
+            <declare name="ism" type="String" array="False" size=""/>
+            <input variable="Ism"/>
+            <output expression="&quot;Familiyangizni kiriting&quot;" newline="True"/>
+            <declare name="familiya" type="String" array="False" size=""/>
+            <input variable="familiya"/>
+            <output expression="&quot;Sharifingiz ya'ni otangizning ismini kiriting &quot;" newline="True"/>
+            <declare name="sharif" type="String" array="False" size=""/>
+            <input variable="sharif"/>
+            <output expression="&quot;Assalomu alaykum va rohmatullohi va barokatuh &#9995; Hurmatli foydalanuvchi &quot; &amp; ism &amp; &quot; &quot; &amp; familiya &amp; &quot; &quot; &amp; sharif &amp; &quot; farzandi  AGE CALCULATOR nomli dasturimizga xush kelibsiz&quot;" newline="True"/>
+            <output expression="&quot;Marhamat qilib yoshingizni kiriting&quot;" newline="True"/>
+            <declare name="age" type="Integer" array="False" size=""/>
+            <input variable="age"/>
+            <output expression="&quot; Qadrli, &quot; &amp; ism &amp; &quot; &quot; &amp; familiya &amp; &quot; &quot; &amp; sharif &amp; &quot; farzandi. Sizga shuni ma'lum qilamizki &#55358;&#56617;, &quot; &amp; 2024 - age &amp; &quot; yilda tavallud topgansiz. &quot; &amp; age * 12 &amp; &quot; oy, &quot; &amp; age * 48 &amp; &quot; hafta, &quot; &amp; age * 365 &amp; &quot; kun, &quot; &amp; age * 8760 &amp; &quot; soat, &quot; &amp; age * 525600 &amp; &quot; daqiqa, &quot; &amp; age * 31536000 &amp; &quot; soniyada yashab ijod qilib kelmoqdasiz. Ushbu sifralar yilni oxirigacha hisoblangan. &#55357;&#56842; &#55358;&#56595; &quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
